@@ -16,7 +16,7 @@ const About = ({ about }) => {
           <Col md="6">
             <section className="about-content mx-5">
               <h2 className="header-title font-weight-bold text-uppercase">
-                About Us
+                Was wir machen
               </h2>
               <p className="about-description font-size-90 text-secondary my-2">
                 {about}
@@ -26,7 +26,7 @@ const About = ({ about }) => {
                   <List2
                     svg={<Square />}
                     svgSize="sm"
-                    value="Professional Staff"
+                    value="Professionell"
                     className="font-weight-bold my-2"
                   />
                 </li>
@@ -34,7 +34,7 @@ const About = ({ about }) => {
                   <List2
                     svg={<Square />}
                     svgSize="sm"
-                    value="Regular Reporting"
+                    value="Flexibel"
                     className="font-weight-bold my-2"
                   />
                 </li>
@@ -42,13 +42,13 @@ const About = ({ about }) => {
                   <List2
                     svg={<Square />}
                     svgSize="sm"
-                    value="Quality Materials"
+                    value="Qualität"
                     className="font-weight-bold my-2"
                   />
                 </li>
               </ul>
               <Link to="/about/#about" className="about-btn-lnk">
-                <Button>Read More</Button>
+                <Button>Mehr über uns</Button>
               </Link>
             </section>
           </Col>

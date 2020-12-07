@@ -7,7 +7,7 @@ import ProjCard from "./projCard"
 const projCategories = ["all", "construction", "remodeling", "interior design"]
 class Project extends Component {
   state = {
-    category: "all",
+    category: "Alle",
     title: this.props.title,
   }
   render() {

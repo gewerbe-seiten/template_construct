@@ -13,7 +13,7 @@ import Header from "./header"
 import Footer from "./footer"
 import "./layout.scss"
 
-import brandLogo from "../images/brand-logo.png"
+import brandLogo from "../images/logo_generic.png"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`

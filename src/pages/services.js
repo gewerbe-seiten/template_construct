@@ -14,34 +14,34 @@ import Helmet from "../images/icons/icon-helmet-67x65.png"
 const ServicesPage = () => {
   const card = [
     {
-      title: `Construction`,
+      title: `Überarbeitung`,
       icon: Bulldozer,
-      description: `We provide high-quality construction services to the energy, water and telecommunications markets.`,
+      description: `Wir erstellen Webseiten. Mit der richtigen Technologie sidn sie für die nächsten 10 Jahre sicher.`,
     },
     {
-      title: `Remodeling`,
+      title: `Design`,
       icon: Tassels,
-      description: `Our team of experts has years of experience in remodeling homes including kitchens, basements etc.`,
+      description: `Wir liefern auf Anfrage auch gerne einzigartiges Design - alles ist möglich`,
     },
     {
-      title: `Interior Design`,
+      title: `Richtiger Code`,
       icon: Ruler,
-      description: `Our interior design services are the best way to get a home design that completely fits you and your lifestyle.`,
+      description: `Wir sind Fan von richtigem Code, welcher Ihrer Webseite den richtigen Schliff gibt `,
     },
     {
-      title: `Contracting`,
+      title: `Alles in einem`,
       icon: Suitcase,
-      description: `Top Project can manage and hire subcontractors while acting as the main contact with construction clients.`,
+      description: `Wir sind auch ihre Texter, falls Sie selbst nicht schreiben möchten. `,
     },
     {
-      title: `Preconstruction`,
+      title: `Flexibel`,
       icon: Relues,
-      description: `Preconstruction involves performing preliminary planning and engineering in order to define the project.`,
+      description: `Wir sind profis für Fotograpfie und Web Entwicklung - spezialisiert für Gerwerbe Webseiten.`,
     },
     {
-      title: `Green Building`,
+      title: `Unterwegs`,
       icon: Helmet,
-      description: `Green building has a highly reduced effect on environment, and is used in almost every project of our company.`,
+      description: `Wir sind in Zürich unterwegs für Fotos oder zur Besprechung.`,
     },
   ]
   return (

@@ -11,19 +11,19 @@ import Ruler from "../images/icons/icon-ruler-45x71.png"
 const Services = () => {
   const card = [
     {
-      title: `Construction`,
+      title: `Überarbeitung`,
       icon: Bulldozer,
-      description: `We provide high-quality construction services to the energy, water and telecommunications markets.`,
+      description: `Wir erstellen Webseiten. Mit der richtigen Technologie sidn sie für die nächsten 10 Jahre sicher.`,
     },
     {
-      title: `Remodeling`,
+      title: `Design`,
       icon: Tassels,
-      description: `Our team of experts has years of experience in remodeling homes including kitchens, basements etc.`,
+      description: `Wir liefern auf Anfrage auch gerne einzigartiges Design - alles ist möglich`,
     },
     {
-      title: `Interior Design`,
+      title: `Richtiger Code`,
       icon: Ruler,
-      description: `Our interior design services are the best way to get a home design that completely fits you and your lifestyle.`,
+      description: `Wir sind Fan von richtigem Code, welcher Ihrer Webseite den richtigen Schliff gibt `,
     },
   ]
   return (

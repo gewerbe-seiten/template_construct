@@ -37,8 +37,8 @@ const Footer = ({ siteMetadata }) => {
     { img: ISO14001, alt: "ISO-14001" },
     { img: ISO9001, alt: "ISO-9001" },
     { img: ISO45001, alt: "ISO-45001" },
-    { img: PCAB, alt: "PCAB LICENSE" },
-    { img: PCA, alt: "PCA" },
+    // { img: PCAB, alt: "PCAB LICENSE" },
+    // { img: PCA, alt: "PCA" },
   ]
   return (
     <footer>
@@ -47,7 +47,7 @@ const Footer = ({ siteMetadata }) => {
           <Row className="section-md">
             <Col className="company-badge" lg="4" sm="12">
               <h4 className="text-center font-weight-bold mt-4 mb-2">
-                Licensed/Accredited
+                Ihre Gewerbe Lizenzen
               </h4>
               <section className="img-badge d-flex flex-wrap justify-content-around align-items-center">
                 {badges.map(badge => (
@@ -60,9 +60,10 @@ const Footer = ({ siteMetadata }) => {
                 ))}
               </section>
             </Col>
+            <br></br>
             <Col className="footer-aboutus" lg="4" sm="6">
               <h4 className="text-center font-weight-bold mt-4 mb-2">
-                About Us
+                Über uns
               </h4>
               <p className="font-size-80 text-justify">{about}</p>
               <section className="footer-social">
@@ -97,7 +98,8 @@ const Footer = ({ siteMetadata }) => {
                   </a>
                 </Row>
               </section>
-              <h6 className="font-weight-bold text-uppercase">Opening Hours</h6>
+              <br></br>
+              <h6 className="text-center font-weight-bold text-uppercase">Öffnungszeiten</h6>
               <section className="opening ml-5">
                 <hr />
                 <List2
@@ -117,8 +119,8 @@ const Footer = ({ siteMetadata }) => {
               </section>
             </Col>
             <Col className="footer-contact" lg="4" sm="6">
-              <h4 className="text-center font-weight-bold mt-4 mb-2">
-                Contacts
+              <h4 className="text-left font-weight-bold mt-4 mb-2">
+                Kontakt
               </h4>
               <ul className="list-unstyled">
                 <li className="my-2">
@@ -138,7 +140,7 @@ const Footer = ({ siteMetadata }) => {
           </Row>
         </Container>
         <Row className="footer-credits justify-content-center">
-          {` ${title} © 2019 || Code and design by: `} &nbsp;
+          {` ${title} © 2020 ||  `} &nbsp;
           <a
             href={author.website}
             target="_blank"

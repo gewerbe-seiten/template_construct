@@ -1,25 +1,25 @@
 module.exports = {
   siteMetadata: {
-    title: `TP Construction`,
-    fullTitle: `TANPEL CONSTRUCTION`,
-    description: `Listen better | Plan better | Build better.`,
-    about: `Since our incorporation in 1981, we've grown from a regional organization to a multi-faceted, national presence in the industry with headquarters in New York.`,
-    email: `info@tanpelconstruction.com`,
+    title: `Gewerbe-Seite`,
+    fullTitle: `Architektur Gewerbe Seite`,
+    description: `Architektur | Design | Planung`,
+    about: `Über die Firma - Gewerbe-Seiten Template`,
+    email: `info@gewerbe-seiten.ch`,
     social: {
-      facebook: `https://facebook.com/tanpelconstruction`,
-      twitter: `https://twitter.com/tanpelconstruction`,
-      instagram: `https://instagram.com/tanpelconstruction`,
-      linkedin: `https://linkedin.com/in/tanpelconstruction`,
+      facebook: `https://facebook.com/`,
+      twitter: `https://twitter.com/`,
+      instagram: `https://instagram.com/`,
+      linkedin: `https://linkedin.com/in/`,
     },
     contact: {
-      mobile: `(+63) 912 345 6789`,
-      telephone: `(02) 123 4567`,
+      mobile: `(+41) 79 201 68 03`,
+      telephone: `(+41) 79 201 68 03`,
     },
-    address: `Bermuda Subd., Pamplona 3, Las Pinas City, Philippines, 1740`,
-    map: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.590531801578!2d120.92931831483857!3d14.450745589898093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d282c1782f4f%3A0x62e247641b50bd21!2sBermuda%20Country%20Subdivision%2C%20Bacoor%2C%20Cavite!5e0!3m2!1sen!2sph!4v1566970336076!5m2!1sen!2sph`,
+    address: `Zürich - Schweiz`,
+    map: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86456.59681310692!2d8.466675066875197!3d47.3774336689763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900b9749bea219%3A0xe66e8df1e71fdc03!2zWsO8cmljaA!5e0!3m2!1sen!2sch!4v1600864369975!5m2!1sen!2sch`,
     opening: {
-      day: `Monday - Friday`,
-      hour: `8:00am - 5:00pm`,
+      day: `Montag - Freitag`,
+      hour: `8:00 - 18:00`,
     },
     careers: {
       title: `Benefits and rewards`,
@@ -34,11 +34,11 @@ module.exports = {
     },
 
     author: {
-      name: `Mark Dino Pelonia`,
-      position: `Web Developer`,
-      email: `markdinopelonia447@gmail.com`,
-      contact: `(+63) 946 290 9678`,
-      website: `https://markdino.github.io/portfolio`,
+      name: `Ray`,
+      position: `Web Design`,
+      email: `raylotmar@icloud.com`,
+      contact: `(+41) 79 201 68 03`,
+      website: `https://gewerbe-seiten.ch`,
     },
   },
   plugins: [
@@ -77,7 +77,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/brand-logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo_generic.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

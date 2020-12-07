@@ -23,11 +23,11 @@ const IndexPage = ({ data }) => {
       <Services />
       <About about={about} />
       <Feature
-        title="Featured Projects"
+        title="Beispiel Projekte"
         projects={data.allProjectsJson.edges}
       />
       <QuoteUs />
-      <News />
+      {/* <News /> */}
     </div>
   )
 }

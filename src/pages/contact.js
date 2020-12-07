@@ -48,12 +48,12 @@ const ContactPage = () => {
           <Row>
             <Col lg="8" className="contact-form border-right pl-5 pr-5">
               <h2 className="header-title text-center font-weight-bold">
-                Get in Touch
+                Kontaktieren Sie uns
               </h2>
               <p className="contact-description font-size-90 text-center text-muted mb-4">
-                We are available by fax, e-mail or by phone. You can also use
-                our quick contact form to ask a question about our services and
-                projects we’re working on.
+                Wir sind über die herkömmlichen Wege erreichbar. Am besten rufen sie uns an oder schicken Sie uns eine Mail.
+                Wir sind auch ausserhalb unserer Öffnungszeiten erreichbar - auch per Whatsapp möglich.
+                
               </p>
               <form
                 name="contact"
@@ -69,7 +69,7 @@ const ContactPage = () => {
                       type="text"
                       name="name"
                       id="userName"
-                      placeholder="Your Name*"
+                      placeholder=" Name*"
                     />
                   </Col>
                   <Col className="mb-4" md="6">
@@ -78,7 +78,7 @@ const ContactPage = () => {
                       type="number"
                       name="phone"
                       id="userName"
-                      placeholder="Phone"
+                      placeholder="Telefon"
                     />
                   </Col>
                   <Col className="mb-1" md="12">
@@ -87,26 +87,26 @@ const ContactPage = () => {
                       type="textarea"
                       name="message"
                       id="message"
-                      placeholder="Your Message*"
+                      placeholder="Nachricht*"
                       rows="7"
                       required
                     ></textarea>
                   </Col>
-                  <Col className="mb-4" md="12">
+                  {/* <Col className="mb-4" md="12">
                     <input
                       className="form-control-file"
                       type="file"
                       name="file"
                       id="attachedFile"
                     />
-                  </Col>
+                  </Col> */}
                   <Col className="mb-4" md="6">
                     <input
                       className="form-control"
                       type="email"
                       name="email"
                       id="userEmail"
-                      placeholder="E-mail*"
+                      placeholder="E-Mail*"
                       required
                     />
                   </Col>
@@ -115,7 +115,7 @@ const ContactPage = () => {
                       className="text-dark font-weight-bold text-uppercase btn btn-secondary btn-block"
                       type="submit"
                     >
-                      Send Message
+                      Senden
                     </button>
                   </Col>
                 </Row>
@@ -124,7 +124,7 @@ const ContactPage = () => {
             <Col lg="4" className="contact-info pl-5 pr-5">
               <aside className="contact-info">
                 <section className="get-social border-bottom mb-4 pb-4">
-                  <p className="text-uppercase font-weight-bold">Get Social</p>
+                  <p className="text-uppercase font-weight-bold">Social Media</p>
                   <Row className="ml-0">
                     <a
                       href={social.facebook}
@@ -158,14 +158,14 @@ const ContactPage = () => {
                 </section>
                 <section className="telephone border-bottom mb-4 pb-4">
                   <p className="text-uppercase font-weight-bold">
-                    Telephone/Fax
+                    Telefon
                   </p>
                   <Row className="ml-0">
                     <Telephone className="fill-svg fill-color" />{" "}
                     {contact.telephone}
                   </Row>
                 </section>
-                <section className="mobilephone border-bottom mb-4 pb-4">
+                {/* <section className="mobilephone border-bottom mb-4 pb-4">
                   <p className="text-uppercase font-weight-bold">
                     Mobile Phone
                   </p>
@@ -173,15 +173,16 @@ const ContactPage = () => {
                     <Smartphone className="stroke-svg stroke-color" />{" "}
                     {contact.mobile}
                   </Row>
-                </section>
+                </section> */}
                 <section className="email border-bottom mb-4 pb-4">
                   <p className="text-uppercase font-weight-bold">E-mail</p>
                   <Row className="ml-0">
-                    <Mail className="stroke-svg stroke-color" /> {email}
+                    <Mail className="stroke-svg stroke-color" />
+                    <a href="mailto:info@gewerbe-seiten.ch"> info@gewerbe-seiten.ch </a>
                   </Row>
                 </section>
                 <section className="address mb-4 pb-4">
-                  <p className="text-uppercase font-weight-bold">Address</p>
+                  <p className="text-uppercase font-weight-bold">Addresse</p>
                   <Row className="ml-0 flex-nowrap">
                     <Pin className="fill-svg fill-color" /> <p>{address}</p>
                   </Row>

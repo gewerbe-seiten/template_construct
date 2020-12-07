@@ -50,8 +50,8 @@ class Header extends Component {
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link className="nav-link" to="projects/#project">
-                    Projects
+                  <Link className="nav-link" to="/projects/#project">
+                    Projekte
                   </Link>
                 </NavItem>
                 <NavItem>
@@ -63,7 +63,7 @@ class Header extends Component {
                     Services
                   </Link>
                 </NavItem>
-                <NavItem>
+                {/* <NavItem>
                   <Link
                     className="nav-link"
                     activeStyle={{ fontWeight: "bold" }}
@@ -71,14 +71,14 @@ class Header extends Component {
                   >
                     Careers
                   </Link>
-                </NavItem>
+                </NavItem> */}
                 <NavItem>
                   <Link
                     className="nav-link"
                     activeStyle={{ fontWeight: "bold" }}
                     to="/about/#about"
                   >
-                    About Us
+                    Über uns
                   </Link>
                 </NavItem>
                 <NavItem>
@@ -87,7 +87,7 @@ class Header extends Component {
                     activeStyle={{ fontWeight: "bold" }}
                     to="/contact/#contact"
                   >
-                    Contact
+                    Kontakt
                   </Link>
                 </NavItem>
               </Nav>

@@ -7,7 +7,9 @@ const ProjCard = ({ proj }) => {
   const { img, title, description, slug } = proj
   return (
     <div className="proj-card">
-      <Link to={`projects/${slug}/#single-project`}>
+
+      {/* Took out an additional project in the Link to=   "/project" */  }
+      <Link to={`${slug}/#single-project`}>
         <img src={img.src[0]} alt={img.orig} title={img.author} />
         <section className="wrap-dark">
           <main className="proj-content text-center">

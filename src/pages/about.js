@@ -57,19 +57,11 @@ const AboutPage = () => {
                   autem, facere ipsa. Fugiat
                 </p>
                 <ol>
-                  <li>Providing awesome customer service to our clients.</li>
+                  <li>Alles aus einer Hand</li>
                   <li>
-                    Providing a mixture of services to a variety of industries
-                    and geographical locations.
+                    Der Service aus Zürich
                   </li>
-                  <li>
-                    Continually improving communications with our customers and
-                    between departments.
-                  </li>
-                  <li>Providing training for personnel’s enhancement.</li>
-                  <li>
-                    Recruiting and hiring only those who share our vision.
-                  </li>
+                
                 </ol>
               </AboutCard>
             </Col>
@@ -85,7 +77,7 @@ const AboutPage = () => {
                   dolores quaerat aspernatur dolorem iusto autem, facere ipsa.
                 </p>
               </AboutCard>
-              <AboutCard title="Core Values">
+              <AboutCard title="Werte">
                 <p>
                   Ipsum dolor sit amet consectetur adipisicing elit. Ullam
                   quisquam ratione et sint, quos dolores, corporis debitis
@@ -94,9 +86,9 @@ const AboutPage = () => {
                   doloribus hic saepe dicta fugit exercitationem.
                 </p>
                 <ul>
-                  <li>Professionalism</li>
-                  <li>Commitment</li>
-                  <li>Integrity</li>
+                  <li>Pro</li>
+                  <li>Flexibel</li>
+                  <li>Integriert</li>
                 </ul>
               </AboutCard>
             </Col>
