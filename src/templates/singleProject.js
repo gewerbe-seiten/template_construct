@@ -40,7 +40,7 @@ const SingeProject = props => {
     completionDate,
     amount,
     duration,
-    owner,
+    // owner,
     address,
   } = props.data.projectsJson
 
@@ -54,12 +54,12 @@ const SingeProject = props => {
             </h2>
             <p className="description text-secondary">{description}</p>
             <section className="details mt-5 mb-5">
-              <List1
+              {/* <List1
                 className="font-size-120"
                 svg={<User />}
                 title="Owner"
                 value={owner}
-              />
+              /> */}
               <hr />
               <List1
                 className="font-size-120"

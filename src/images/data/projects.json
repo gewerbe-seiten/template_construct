@@ -1,9 +1,9 @@
 [
   {
-    "title": "Ialicante Mediterranean Homes",
+    "title": "Mediterranean Homes",
     "slug": "alicante",
     "category": ["Konstruktion"],
-    "description": "iAlicante provides a brand new line of modern Villas and Apartments and beautiful second-hand properties on the SUNNY Mediterranean coast of Costa Blanca, in Spain '' the White Coast'', which is one of the top holiday destinations.",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
     "img": {
       "src": [
         "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
@@ -13,12 +13,12 @@
         "https://images.unsplash.com/photo-1512916958891-fcf61b2160df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"
       ],
       "orig": "https://unsplash.com/photos/2d4lAQAlbDA",
-      "author": "Photo by iAlicante Mediterranean Homes on Unsplash"
+      "author": "Mediterranean Homes on Unsplash"
     },
     "amount": "Php 4,000,000.00",
     "duration": "85 Calendar days",
     "completionDate": "Feb. 20, 2018",
-    "owner": "ialicante.com",
+    "owner": "ialicante",
     "address": "Spanien",
     "featured": true
   },
@@ -47,7 +47,7 @@
   {
     "title": "Pixasquare",
     "slug": "pixasquare",
-    "category": ["Konstruktion"],
+    "category": ["Konstruktion", "Interior"],
     "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo amet dicta eaque facere doloribus, earum error! Laudantium beatae harum quos?",
     "img": {
       "src": [

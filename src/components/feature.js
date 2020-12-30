@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from "reactstrap"
 import { Link } from "gatsby"
 import "./project.scss"
 
-import ProjCard from "./projCard"
+import ProjectCardFeat from "./projCardFeatured"
 
 const Feature = ({ title, projects }) => {
   return (
@@ -19,9 +19,13 @@ const Feature = ({ title, projects }) => {
               .filter(project => project.node.featured === true)
               .map(project => {
                 return (
+
                   <Col lg="4" md="6" sm="12">
-                    <ProjCard proj={project.node} />
+
+                    <ProjectCardFeat proj={project.node} />
+                    
                   </Col>
+                 
                 )
               })}
           </Row>

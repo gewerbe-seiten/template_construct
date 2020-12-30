@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Gewerbe-Seite`,
-    fullTitle: `Architektur Gewerbe Seite`,
-    description: `Architektur | Design | Planung`,
-    about: `Über die Firma - Gewerbe-Seiten Template`,
+    fullTitle: `Gewerbe Seite`,
+    description: `Fotografie | Webseite | Planung`,
+    about: `Schaufenster - Gewerbe-Seiten Template`,
     email: `info@gewerbe-seiten.ch`,
     social: {
       facebook: `https://facebook.com/`,
@@ -23,21 +23,19 @@ module.exports = {
     },
     careers: {
       title: `Benefits and rewards`,
-      about: `Our diverse capabilities provide employees with the ability to
-      work on projects of all sizes and types and receive amazing
-      benefits in return. They include but are in no way limited to:`,
+      about: `Our diverse capabilities `,
       benefits: [
         `Healthcare and wellness benefits`,
         `Retirement and financial protection`,
-        `Employee development programs`,
+        
       ],
     },
 
     author: {
       name: `Ray`,
       position: `Web Design`,
-      email: `raylotmar@icloud.com`,
-      contact: `(+41) 79 201 68 03`,
+      email: `info@gewerbe-seiten.ch`,
+      contact: `079 201 68 03`,
       website: `https://gewerbe-seiten.ch`,
     },
   },
@@ -71,11 +69,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `gatsby-webseite-gewerbe-seite`,
+        short_name: `gewerbe-seite`,
         start_url: `/`,
         background_color: `#663399`,
-        theme_color: `#663399`,
+        theme_color: `#663399`, 
         display: `minimal-ui`,
         icon: `src/images/logo_generic.png`, // This path is relative to the root of the site.
       },
